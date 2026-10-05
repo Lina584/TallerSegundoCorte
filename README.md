@@ -83,11 +83,11 @@ Los tres puntos usan **la misma consola física**; solo cambia el firmware que s
 
 Repositorio base: [utiasDSL/gym-pybullet-drones](https://github.com/utiasDSL/gym-pybullet-drones)
 
-### 📹 Video del funcionamiento
+###  Video del funcionamiento
 
 [![Video punto A](https://img.youtube.com/vi/fdtq0ZkJfHc/hqdefault.jpg)](https://youtu.be/fdtq0ZkJfHc)
 
-▶️ **Ver en YouTube:** https://youtu.be/fdtq0ZkJfHc
+ **Ver en YouTube:** https://youtu.be/fdtq0ZkJfHc
 
 ### 1. Arquitectura
 
@@ -200,17 +200,11 @@ Ambos archivos están comentados por bloques.
 
 Repositorio base: [erwincoumans/pybullet_robots](https://github.com/erwincoumans/pybullet_robots) (modelo `toms_baxter.urdf`, el mismo que usa [`baxter_ik_demo.py`](https://github.com/erwincoumans/pybullet_robots/blob/master/baxter_ik_demo.py))
 
-### 📹 Video del funcionamiento
+###  Video del funcionamiento
 
 [![Video punto B](https://img.youtube.com/vi/ttVYoxfPBsE/hqdefault.jpg)](https://youtu.be/ttVYoxfPBsE)
 
-▶️ **Ver en YouTube:** https://youtu.be/ttVYoxfPBsE
-
-| 1. Inicio | 2. Agarre |
-|---|---|
-| ![Inicio](punto_b/img/1_inicio.png) | ![Agarre](punto_b/img/2_agarre.png) |
-| **3. Transporte** | **4. Objeto en el destino** |
-| ![Transporte](punto_b/img/3_transporte.png) | ![Destino](punto_b/img/4_destino.png) |
+ **Ver en YouTube:** https://youtu.be/ttVYoxfPBsE
 
 El objetivo es coger el **cubo azul** (3 cm, 50 g) y llevarlo a la **zona verde** de la mesa, moviendo los brazos del Baxter con solo 6 pulsadores.
 
@@ -334,17 +328,11 @@ Durante las pruebas se encontró que `calculateInverseKinematics` de PyBullet, l
 
 Repositorio base: [erwincoumans/pybullet_robots](https://github.com/erwincoumans/pybullet_robots/tree/master) (modelo `atlas_v4_with_multisense.urdf` y escena `botlab` del demo [`atlas.py`](https://github.com/erwincoumans/pybullet_robots/blob/master/atlas.py))
 
-### 📹 Video del funcionamiento
+###  Video del funcionamiento
 
 [![Video punto C](https://img.youtube.com/vi/UL_tXOwbbyE/hqdefault.jpg)](https://youtu.be/UL_tXOwbbyE)
 
-▶️ **Ver en YouTube:** https://youtu.be/UL_tXOwbbyE
-
-| 1. Postura inicial | 2. Sentadilla + manos |
-|---|---|
-| ![Inicio](punto_c/img/1_inicio.png) | ![Sentadilla](punto_c/img/2_sentadilla.png) |
-| **3. Giro e inclinación del torso** | **4. Saludo** |
-| ![Giro](punto_c/img/3_giro.png) | ![Saludo](punto_c/img/4_saludo.png) |
+ **Ver en YouTube:** https://youtu.be/UL_tXOwbbyE
 
 Como en la imagen del taller, el Atlas está de pie sobre la caja azul dentro del laboratorio. Con la consola se mueve cada mano, el torso, la cabeza y la altura del cuerpo de forma fluida, **sin que los pies se despeguen de la caja**.
 
