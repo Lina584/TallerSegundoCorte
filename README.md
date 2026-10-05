@@ -56,7 +56,7 @@ Los tres puntos usan **la misma consola física**; solo cambia el firmware que s
 
 - Se usa `INPUT_PULLUP`, así que **no hacen falta resistencias externas** en los pulsadores (suelto = `HIGH`, presionado = `LOW`).
 - Se evitaron los GPIO 0, 2, 12 y 15 (pines de arranque) y 34–39 (sin pull-up interno).
-- Inicialmente dos pulsadores estaban en los GPIO 25 y 26, pero no respondieron en la placa usada; se movieron al **32** y al **18** (ver [problemas encontrados](#problemas-encontrados-y-soluciones)).
+- Inicialmente dos pulsadores estaban en los GPIO 25 y 26, pero no respondieron en la placa usada; se movieron al **32** y al **18**
 
 | GPIO | Punto A (drones) | Punto B (Baxter) | Punto C (Atlas) |
 |---|---|---|---|
