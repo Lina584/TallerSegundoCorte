@@ -1,0 +1,4 @@
+pyserial>=3.5
+numpy>=2.0
+pybullet>=3.2.7
+# gym-pybullet-drones se instala desde su repositorio (ver README, paso 2)
